@@ -1,0 +1,10 @@
+﻿  Main.c
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(73,21): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'PlayerStats *' sont différents
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(73,21): warning C4024: 'SelectHeavy' : types différents pour le paramètre formel et réel 1
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(73,9): error C2198: 'SelectHeavy' : pas assez d'arguments pour un appel
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(78,21): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'PlayerStats *' sont différents
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(78,21): warning C4024: 'SelectLight' : types différents pour le paramètre formel et réel 1
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(78,9): error C2198: 'SelectLight' : pas assez d'arguments pour un appel
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(83,18): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'PlayerStats *' sont différents
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(83,18): warning C4024: 'SelectSP' : types différents pour le paramètre formel et réel 1
+C:\clement\cours\yoann.amar@outlook.com\ProjetFinJanvier\ProjetFinJanvier\Main.c(83,9): error C2198: 'SelectSP' : pas assez d'arguments pour un appel
