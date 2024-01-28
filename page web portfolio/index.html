@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style1.css">
+      <meta charset="UTF-8">
+      <title>World Of Tank</title>
+      </head> 
+   <body>
+         <header id="myHeader">
+         
+         <h1>World Of Tank</h1>
+         <nav>
+            <a href='index.html'>home</a>
+            <a href='news.html'>news</a>
+            <a href='sign.html'>sign</a>
+            <a href='more.html'>more</a>
+            <a href='league.html'>league</a>
+            <a href='tanks.html'>tanks</a>
+         </nav>
+         </header>
+      
+      <main>
+         <div class="row">
+            <div class=”post-text-box”>
+               <h1 class="txt">A propos</h1>
+               <section class="txt">
+                  <h1>Qu'est ce que WoT</h1>
+                  <p>
+                     World of Tanks" est un jeu vidéo en ligne massivement multijoueur (MMO) développé par Wargaming. Il offre une expérience de combat stratégique 
+                     centrée sur les chars de guerre. Les joueurs prennent le contrôle de divers chars historiques et fictifs, les utilisant pour participer à des 
+                     batailles épiques en équipe. Les combats se déroulent dans des environnements variés, allant de champs de bataille ouverts à des zones urbaines,
+                     mettant à l'épreuve la tactique, la coordination d'équipe et les compétences individuelles. Avec des mises à niveau de chars, des choix de véhicules
+                     et une variété de modes de jeu, "World of Tanks" offre une expérience immersive pour les passionnés de véhicules blindés et de stratégie militaire.
+                  </p>
+               </section>
+            </div>
+            <div class=”play”>
+               <p><br /><br /></p>
+               <p class="txt">click here to  download :   <br /> </p>
+               <button onclick="window.location.href = 'https://worldoftanks.eu/fr/game/download/';" class="favorite styled" type="button">Download</button>    
+               
+            </div>  
+         </div>
+         <div class="row1.5">
+            <iframe width="560" height="315" src="montag7fini.mp4"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;picture-in-picture" allowfullscreen></iframe>
+         </div> 
+         <div class="row2">
+            <div class=”post”>
+               <section>
+                  <h1 class="txt"><br/><br/><br/><br/><br/><br/><br/><br/>Comunauté</h1>
+                  <p class="txt"><br/>Rejoignez la communauté World of Tanks de 160 millions de joueurs à travers le monde, et découvrez un univers plein d'émotions, de camaraderie, et de véhicules lourds !<br /><br />Participez à la communauté World of Tanks, partagez vos idées et vos remarques, et expérimentez le frisson du combat stratégique à bord de chars comme jamais auparavant !</p>
+               </section>
+               <section>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                  <button onclick="window.location.href = 'https://forum.worldoftanks.com/';" class="favorite styled" type="button">UNE QUESTION ??</button>
+               </section>
+            </div>
+            <div class=”profile”>
+               <h1 class="txt" class="wg">wargaming</h1>
+               <a href="https://eu.wargaming.net/en"><img src="warg.png" style="width:180px;height:180px;"></a>
+               <p  class="txt2" class="wg">À propos de l’auteur :<br/>Wargaming est un éditeur et développeur de jeux en ligne multi-récompensés et l'un des leaders sur le marché des jeux gratuits massivement multi-joueurs (MMO F2P). Société privée fondée en 1998, Wargaming a conçu plus de 15 jeux.
+
+                  Wargaming se concentre maintenant sur l'établissement d'une série d'action-MMO dédiée aux événements guerriers de la moitié du 20e siècle qui inclut le renommé World of Tanks, le combat aérien avec World of Warplanes et enfin l'aspect naval avec World of Warships. Les trois titres interconnectés formeront un univers commun de jeu en ligne intégré à un portail unique : www.wargaming.net. </p>
+            </div>     
+         </div>       
+      </main>
+      <footer class="footer">
+         <a href='https://twitter.com/Wargaming_netFR'>Twitter</a>
+         <a href='https://www.facebook.com/WorldOfTanks.FR/?locale=fr_FR' >Facebook</a>
+         <a href='https://www.instagram.com/worldoftanks_official/?hl=fr'>Instagram</a>
+      </footer>
+   
+      <script>
+         window.onscroll = function() {myFunction()};
+         
+         var header = document.getElementById("myHeader");
+         var sticky = header.offsetTop;
+         
+         function myFunction() {
+           if (window.pageYOffset > sticky) {
+             header.classList.add("sticky");
+           } else {
+             header.classList.remove("sticky");
+           }
+         }
+         </script>
+    </body>
+</html>
